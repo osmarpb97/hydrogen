@@ -8,13 +8,21 @@
 }
 .slider-adjustment{
     position: fixed;
+    height: 100%;
      top: 0px;  
      left: 0;
      bottom: 0;
      right: 0;
-     overflow: auto;
-   background-color:cyan ;
 }
 .sidenav-overlay{
     display: none!important;
+}
+.slider.fullscreen{
+    height: 100%;
+    position: fixed;
+}
+@media only screen and (max-width: 600px)  {
+    .slider-adjustment{
+        height: 80vh;
+    }
 }

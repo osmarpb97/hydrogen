@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import Slide from './Slide';
 import AddSlide from './AddSlide';
-import Dashboard_method from '../Dashboard'
 import M from  'materialize-css'
 
 class Slider extends Component {
@@ -28,14 +27,10 @@ class Slider extends Component {
         this.componentDidUpdate();
     }
 
-
-
     render() {
         return (
-        <div className="slider-adjustment ">
-            <div className="slider fullscreen">
-                 <Slide sliders = {this.state.sliders} />
-            </div>
+        <div className="slider fullscreen">
+            <Slide sliders = {this.state.sliders} />
         </div>
     );}
 }

@@ -12,7 +12,7 @@ class Navbar extends React.Component{
     }
     render(){
         return (
-            <div className="Header">
+            <div className="navbar-fixed">
                 <ul id="dropdown1" className="dropdown-content">
                     <li><a href="#!">Where To Buy</a></li>
                     <li className="divider"></li>
@@ -29,7 +29,7 @@ class Navbar extends React.Component{
                     <li><a href="collapsible.html">How It Works</a></li>
                     <li><a href="mobile.html">About Us</a></li>
                 </ul>
-                <nav className="transparent_bg">
+                <nav className="transparent_bg fixed">
                     <div className="nav-wrapper container">
                         <a href="#!" className="brand-logo-left" >Logo</a>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
